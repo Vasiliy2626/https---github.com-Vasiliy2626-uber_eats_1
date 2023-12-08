@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     box-sizing: border-box;
-    max-width: 1124px;
+    width: 1124px;
 }
 
 .header{
@@ -266,7 +270,11 @@ footer{
 
 @media screen and (max-width:768px){
 
-.header{
+body {
+    width: 768px;
+}
+
+    .header{
     padding-left: 0;
     padding-right: 0;
     width: 768px;
@@ -307,13 +315,18 @@ footer{
 footer{
     padding-left: 5px;
     padding-right: 0;
+    width: 768px;
 }
-  
+
 }
 
 @media screen and (max-width:320px){
 
-.header{
+    body{
+        width: 320px;
+    }
+    
+    .header{
     width: 320px;
 }
 
@@ -339,10 +352,16 @@ footer{
 
 .card{
     margin-bottom: 30px;
+    width: 320px;
+}
+
+.card_item_1_media{
+    width: 308px;
 }
 
 footer{
     height: 900px;
+    width: 320px;
 }
 
 .footer-logo{
@@ -389,5 +408,7 @@ footer{
     width: 64px;
     height: 64px;
 }
+
+
 
 }
